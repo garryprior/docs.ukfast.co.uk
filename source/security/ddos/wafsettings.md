@@ -107,6 +107,15 @@ For instance, using the "office network" example above - you know that traffic f
 It is important to think carefully when applying whitelists, as the more you implement the less secure your site will become. You should always endeavour to balance security and accessibility - a task that requires a detailed knowledge of your website, application and end users (both internal to your company, as well as external).
 
 
+The following methods are acceptable values when adding an IP Address to the whitelist:
+
+
+-   Full IPv4 Address - 192.168.1.100
+-   Network Block/CIDR Address - 192.168.1.0/24
+-   Full IPv6 Address - 2001:db8:85a3:8d3:1319:8a2e:370:7348
+-   Network Block/CIDR Address - 2001:db8:85a3:8d3:1319:8a2e:370:0/24
+
+
 ```eval_rst
 .. meta::
      :title: Web Application Firewall settings on DDoSX | UKFast Documentation
